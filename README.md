@@ -1,27 +1,17 @@
-<p align="center">
-    <div align="center">
-        <img src="api/html/images/logo.png" alt="logo">
-    </div>
-    <div align="center">Backend for <b>JAVINFO CLI</b> | API to fetch JAV data from various sites
-    </div>
-</p>
+<div align="center">
+    Build latest pip packages (wheels) and store | <a href="https://hub.docker.com/repository/docker/iamrony777/javinfo-api">Build-Layer</a>
+    <br>
+    <a href="https://github.com/iamrony777/JavInfo-api/network/dependencies" target="_blank"> Check Dependency Graph </a> and also <a href="https://github.com/iamrony777/JavInfo-api/blob/build/requirements.txt" target="_blank">requirements.txt</a>
+</div>
 
 <br>
 
-<p align="center">
-    <div align="center">
-        <a href="https://javinfo-api.up.railway.app/docs">
-            <img src="https://img.shields.io/badge/READ-THE%20DOCS-darkviolet?style=for-the-badge&logo=read-the-docs">
-        </a>
-        <a href="https://javinfo-api.up.railway.app/demo">
-            <img src="https://img.shields.io/website?down_color=red&down_message=API%20IS%20DOWN&label=JAVINFO-API&logo=railway&style=for-the-badge&up_color=darkviolet&up_message=TRY%20DEMO%20%21&url=https://javinfo-api.up.railway.app%2Fcheck">
-        </a>
-    </div>
-    <div align="center">
-        <a href="https://app.codacy.com/gh/iamrony777/JavInfo-api">
-            <img src="https://img.shields.io/codacy/grade/5f4cc6df4a8d4034b19abe5d6c747009?style=for-the-badge&logo=codacy">
-        </a>   
-        <img src="https://img.shields.io/github/license/iamrony777/javinfo-api?style=for-the-badge">
-    <div>
-    <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/iamrony777/JavInfo-api/main/docs/version">
-</p>
+<div align="center">
+    <img alt="AlpineLinux" src="https://img.shields.io/badge/Built%20on-Alpine%20Linux-lightblue?style=for-the-badge&logo=AlpineLinux">
+    <img alt="Docker Image Size (tag)" src="https://img.shields.io/docker/image-size/iamrony777/javinfo-api/build-layer?logo=Docker&style=for-the-badge">
+    <img alt="GitHub Workflow Status (branch)" src="https://img.shields.io/github/workflow/status/iamrony777/JavInfo-api/build-layer/build?style=for-the-badge">
+</div>
+
+<div align="center">
+    <img alt="Architecture" src="https://img.shields.io/badge/Architecture-x86__64%20%7C%20arm64%20%7C%20armv7l%20%7C%20armv6l-blue?style=for-the-badge">
+</div>

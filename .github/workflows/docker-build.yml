@@ -1,9 +1,11 @@
-name: Build-Layer 
+name: build-layer 
 
 on: 
+  push:
+    branches:
+      - 'build'
   # Schedule updates (“Runs at 00:00 UTC on 1st of every month”)
   schedule: [{cron: "0 0 1 * *"}]
-  workflow_dispatch:
 
 jobs:
   qemu:
@@ -29,7 +31,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          file: ./Dockerfile.build
           platforms: linux/amd64, linux/arm/v7, linux/arm/v6, linux/arm64
           push: true
           tags: iamrony777/javinfo-api:build-layer
