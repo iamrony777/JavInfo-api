@@ -5,7 +5,8 @@ on:
     branches:
       - 'build'
   # Schedule updates (“Runs at 00:00 UTC on 1st of every month”)
-  schedule: [{cron: "0 0 1 * *"}]
+  schedule: [{cron: "0 0 * * 0"}]
+  workflow_dispatch:
 
 jobs:
   qemu:
